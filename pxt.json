@@ -1,0 +1,30 @@
+{
+    "name": "insecto",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "Librerías CPE V2": "pkg:Librerías CPE V2.json",
+        "Hexapod-robot-program": "pkg:Hexapod-robot-program.json",
+        "Handle-rocker-control": "pkg:Handle-rocker-control.json"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "Librerías CPE V2.json",
+        "Hexapod-robot-program.json",
+        "Handle-rocker-control.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "6.0.28",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ]
+}
